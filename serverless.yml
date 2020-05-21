@@ -88,7 +88,7 @@ package:
   individually: true
 
 functions:
-  hello:
+  GetData:
     handler: GraphQLData::GraphQLDynamo.Handler::GetData
 
     # you can add packaging information here
